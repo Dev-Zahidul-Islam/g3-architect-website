@@ -65,10 +65,7 @@
   max-width: 1024px;
   margin: 0 auto;
 }
-.banner img {
-  width: 1024px;
-  margin-bottom: 32px;
-}
+
 
 /* banner content style */
 .banner-content {
@@ -89,4 +86,15 @@
   line-height: 18px;
   text-align: center;
 
+}
+
+.banner-image{
+    width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width:576px){
+  .navbar, .nav-links{
+    flex-direction: column;
+  }      
 }
